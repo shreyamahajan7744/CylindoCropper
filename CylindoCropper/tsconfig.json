@@ -1,0 +1,14 @@
+{
+  "exclude": ["node_modules", "lib-esm", "lib", "**/*.story*", "**/*.spec*"],
+  "include": ["index.tsx", "./src/**/*"],
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "declaration": true,
+    "noEmit": false,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "typeRoots": ["./src/typings"],
+    "types": ["node"]
+  }
+}
