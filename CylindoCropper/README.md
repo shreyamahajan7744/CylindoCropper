@@ -1,6 +1,6 @@
 ## Cylindo Image Cropper React
 
-This is the Cylindo Image Cropper for InRiver.
+This is the Cylindo Image Cropper.
 
 The project is using npm, so to get started you need to run npm install. Node Version 12.18.3
 
